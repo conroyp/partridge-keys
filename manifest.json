@@ -1,0 +1,13 @@
+{
+  "name": "Partridge Keys",
+  "version": "1.0",
+  "icons": {
+    "128": "i/icon128.png"
+  },
+  "description": "It's often difficult to read Richard Keys without hearing Alan Partridge, so this extension automatically swaps Richard Keys' name and image with those of Alan Partridge",
+  "manifest_version": 2,
+  "content_scripts": [ {
+    "js": [ "js/swap.js" ],
+    "matches": ["*://*/*"]
+  }]
+}
